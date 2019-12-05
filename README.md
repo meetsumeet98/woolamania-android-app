@@ -22,3 +22,5 @@
 ![](/paytmproof_pixel_very_silver_portrait.png)
 ![](/account_pixel_very_silver_portrait.png)
 ![](/watchvideo_pixel_very_silver_portrait.png)
+
+Created and maintained by Sumeet Bhujang.
