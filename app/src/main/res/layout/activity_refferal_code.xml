@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebackgroumd"
+    tools:context=".RefferalCodeActivity">
+
+    <EditText
+        android:id="@+id/RefferalCode"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="208dp"
+        android:ems="10"
+        android:background="@drawable/email"
+        android:gravity="center"
+        android:hint="Refferal Code"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/submitcode"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="255dp"
+        android:background="@drawable/justbackground"
+        android:shadowColor="@android:color/black"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        app:srcCompat="@drawable/woolamania" />
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="70dp"
+        android:layout_height="28dp"
+        android:layout_above="@+id/imageView9"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-51dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/justbackground"
+        android:text="Skip"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+
+        android:textStyle="bold" />
+</RelativeLayout>

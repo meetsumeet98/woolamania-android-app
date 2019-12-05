@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="woolamania.in.woolamania">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signUpActivity" android:screenOrientation="portrait" />
+        <activity android:name=".Home" android:screenOrientation="portrait" />
+        <activity android:name=".FreeRoll" android:screenOrientation="portrait" />
+        <activity android:name=".LotteryActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".WatchVideoActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".FreeRollSplash" android:screenOrientation="portrait"/>
+        <activity android:name=".Withdraw" android:screenOrientation="portrait"/>
+        <activity android:name=".Payment" android:screenOrientation="portrait"/>
+        <activity android:name=".Paytm" android:screenOrientation="portrait"/>
+        <activity android:name=".Payoneer" android:screenOrientation="portrait"/>
+        <activity android:name=".Account" android:screenOrientation="portrait"/>
+        <activity android:name=".ForgotPass" android:screenOrientation="portrait"/>
+        <activity android:name=".WatchVideoSplash" android:screenOrientation="portrait"/>
+
+        <activity android:name=".RefferalCodeActivity" android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".LotterySplash" android:screenOrientation="portrait"/>
+        <activity android:name=".LotteryWinners" android:screenOrientation="portrait"/>
+        <activity android:name=".Faq" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

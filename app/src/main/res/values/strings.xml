@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">WoolaMania</string>
+    <string name="secondstring">myname</string>
+    <string name="signinbutton">sign in</string>
+    <string name="sign_up">Dont have an account? sign up</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">Already have an account? sign in</string>
+    <string name="signup">Sign Up</string>
+    <string name="progressText">Signing In..</string>
+    <string name="progressText1">Signing Up..</string>
+    <string name="confirmpass">Confirm Password</string>
+    <string name="TAG">call executed</string>
+    <string name="title_activity_free_roll">FreeRoll</string>
+
+    <string name="watchvideo"><b>Note-</b> To get rewarded you have to watch video till the end. </string>
+    <string name="watch_videos">Watch Videos</string>
+    <string name="v1">Video</string>
+
+    <string name="loading">Loading Video..</string>
+    <string name="loadingTicket">Loading Ticket..</string>
+    <string name="q1"><b>How can I earn</b></string>
+    <string name="a1">You can earn coins by playing free rolls, watching videos and participating in Lottery Rounds.</string>
+
+
+    <string name="rate_dialog_title">Enjoying the app? Rate us now !</string>
+    <string name="rate_dialog_message">Please rate us,it will take only 1 minute and this will help others to get to know about us.</string>
+    <string name="rate_dialog_ok">Rate us now</string>
+    <string name="rate_dialog_cancel">Remind me later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+
+    <!-- aduinit id section-->
+   <!-- <string name="admob_app_id">ca-app-pub-7774473624959541~2879529577</string>
+    <string name="ad_unit_id">ca-app-pub-7774473624959541/6375775669</string>
+    <string name="interstitial">ca-app-pub-7774473624959541/9439825222</string> -->
+
+    <string name="admob_app_id">ca-app-pub-1191652235763243~9153370445</string>
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="interstitial">ca-app-pub-3940256099942544/1033173712</string>
+
+</resources>

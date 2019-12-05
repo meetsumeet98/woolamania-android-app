@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "207214468673",
+    "firebase_url": "https://woolamania.firebaseio.com",
+    "project_id": "woolamania",
+    "storage_bucket": "woolamania.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207214468673:android:60e189c888572e95",
+        "android_client_info": {
+          "package_name": "woolamania.in.woolamania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207214468673-h56qiihesiegro0ajdf0qseqma94lk7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "woolamania.in.woolamania",
+            "certificate_hash": "935510392648eb9703992fdf68499f83731f41d7"
+          }
+        },
+        {
+          "client_id": "207214468673-08269uv2hp46uukko85gdiosrh7b8noc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "woolamania.in.woolamania",
+            "certificate_hash": "b0779c3a0678c03b52a21dd386a43ce7d61ff211"
+          }
+        },
+        {
+          "client_id": "207214468673-66hfmqac0405mika4k7hemj2f3ctfm8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIfEvnf5VIc_tXlDEpfYiV04r5DUdUb0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207214468673-66hfmqac0405mika4k7hemj2f3ctfm8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

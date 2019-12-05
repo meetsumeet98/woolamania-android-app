@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/withdrawbackground"
+    tools:context=".Withdraw"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/paypal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="290dp"
+        android:layout_marginStart="35dp"
+        android:background="@drawable/paypal" />
+
+    <TextView
+        android:id="@+id/paytm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/paypal"
+        android:layout_marginBottom="219dp"
+        android:background="@drawable/paytm" />
+
+    <TextView
+        android:id="@+id/payoneer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/paypal"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/payoneer" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="84dp"
+        android:layout_height="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/logogroup" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:fontFamily="@font/pt_sans"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/coins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/points"
+        android:layout_marginEnd="147dp"
+        android:fontFamily="@font/pt_sans"
+        android:text="coins"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</RelativeLayout>
